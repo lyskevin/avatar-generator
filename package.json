@@ -1,0 +1,28 @@
+{
+  "name": "avatar-generator",
+  "version": "1.0.0",
+  "description": "An avatar generator :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@dicebear/avatars": "^4.2.5",
+    "@dicebear/avatars-gridy-sprites": "^4.2.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "unique-names-generator": "^4.3.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
